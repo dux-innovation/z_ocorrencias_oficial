@@ -74,7 +74,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 		_onPressSapResponsivePage0contentsapmList1462815030354itemssapmObjectListItem1: function() {
 			var oBindingContext = this.getView().getBindingContext();
 
-			this.doNavigate("1462818173610_S1", oBindingContext);
+			this.doNavigate("details_ocorr", oBindingContext);
 
 		}
 	});
