@@ -4,21 +4,23 @@
 	
 	<m:content>
 	
-	    <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" editable="false" layout="ResponsiveGridLayout" id="__form0">
+	    <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" editable="false" layout="ResponsiveGridLayout" id="__form3" singleContainerFullSize="true" maxContainerCols="2" columnsL="2" adjustLabelSpan="true">
 	
 	        <sap.ui.layout.form:content xmlns:sap.ui.layout.form="sap.ui.layout.form">
 	
-	            <sap.ui.core:Title xmlns:sap.ui.core="sap.ui.core" text="Title" id="__title0"/>
+	            <sap.ui.core:Title xmlns:sap.ui.core="sap.ui.core" id="__title3"/>
 	
-	            <m:Label text="Label 1" id="__label0"/>
+	            <m:Label text="Ocorrido" width="100%" id="label1"/>
 	
-	            <m:Input width="100%" id="__input0"/>
+	            <m:Input width="100%" id="input1"/>
 	
-	            <m:Input width="100%" id="__input1"/>
+	            <m:Label text="Data da ocorrência" width="100%" id="label2"/>
 	
-	            <m:Label text="Label 2" id="__label1"/>
+	            <m:DatePicker width="100%" secondaryCalendarType="Gregorian" id="input2"/>
 	
-	            <m:Input width="100%" id="__input2"/></sap.ui.layout.form:content>
+	            <m:Label text="Local" width="100%" id="label3"/>
+            
+            </sap.ui.layout.form:content>
 	
 	    </sap.ui.layout.form:SimpleForm>
 	
