@@ -45,14 +45,18 @@
 		<m:customHeader/>
 		<m:footer>
 			<m:Bar id="sap_Responsive_Page_0-footer-sap_m_Bar-1" design="Footer">
-				<m:contentLeft>
-					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-3" iconDensityAware="false" text="" type="Default"
-						icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true"/>
+				<m:contentLeft/>
+				<m:contentMiddle/>
+				<m:contentRight>
+				    <m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-3" iconDensityAware="false" text="" type="Default"
+						icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true" />
 					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentLeft-sap_m_Button-1462815130019" iconDensityAware="false" text="New"
 						type="Emphasized" icon="sap-icon://add" iconFirst="true" width="auto" enabled="true" visible="true"/>
-				</m:contentLeft>
-				<m:contentMiddle/>
-				<m:contentRight/>
+				    <m:Button press="navigateToDetails" iconDensityAware="false" text="Ir pra detalhes" type="Reject"
+					width="auto" enabled="true" visible="true" />
+				    <m:Button press="navigateToForm" iconDensityAware="false" text="Ir pro form" type="Accept"
+					width="auto" enabled="true" visible="true" />    
+				</m:contentRight>
 			</m:Bar>
 		</m:footer>
 	</m:Page>

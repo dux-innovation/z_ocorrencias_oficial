@@ -44,10 +44,7 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": [
-			"sap_hcb",
-			"sap_bluecrystal"
-		]
+		"supportedThemes": ["sap_hcb", "sap_bluecrystal"]
 	},
 	"sap.ui5": {
 		"_version": "1.1.0",
@@ -97,29 +94,25 @@
 				"clearTarget": false,
 				"controlAggregation": "pages",
 				"bypassedPage": {
-					"target": [
-						"list_ocorr"
-					]
+					"target": ["list_ocorr"]
 				}
 			},
 			"routes": [{
 				"pattern": "list_ocorr/:context:",
 				"name": "list_ocorr",
-				"target": [
-					"list_ocorr"
-				]
+				"target": ["list_ocorr"]
 			}, {
 				"pattern": "details_ocorr/:context:",
 				"name": "details_ocorr",
-				"target": [
-					"details_ocorr"
-				]
+				"target": ["details_ocorr"]
 			}, {
 				"pattern": "",
 				"name": "default",
-				"target": [
-					"list_ocorr"
-				]
+				"target": ["list_ocorr"]
+			}, {
+			    "pattern": "ocorr_form/:context:",
+				"name": "ocorr_form",
+				"target": ["ocorr_form"]
 			}],
 			"targets": {
 				"list_ocorr": {
@@ -133,6 +126,12 @@
 					"viewName": "details_ocorr",
 					"viewId": "details_ocorr",
 					"viewLevel": 1
+				},
+				"ocorr_form": {
+					"viewName": "ocorr_form",
+					"viewId": "ocorr_form",
+					"viewLevel": 1,
+					"controlAggregation": "pages"
 				}
 			}
 		}

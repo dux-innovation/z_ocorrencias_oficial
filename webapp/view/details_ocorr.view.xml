@@ -53,6 +53,12 @@
 									<m:Text
 										id="id-text-descricao"
 										text="Vidro quebrado da janela" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+									<m:Label
+										id="id-label-autor"
+										text="Autor" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>
+									<m:Text
+										id="id-text-autor"
+										text="Gil Lellis Rodrigues" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>    
 								</form:content>
 								<form:title/>
 							</form:SimpleForm>
