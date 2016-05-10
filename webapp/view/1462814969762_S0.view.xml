@@ -14,36 +14,6 @@
 					</m:Toolbar>
 				</m:headerToolbar>
 				<m:items>
-					<m:ObjectListItem id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-items-sap_m_ObjectListItem-1" showMarkers="false" intro=""
-						title="Titulo e descrição cortada em uns 50 caractere..." number="09/05/2016" numberUnit="" numberState="None" type="Active" selected="true"
-						press="_onPressSapResponsivePage0contentsapmList1462815030354itemssapmObjectListItem1">
-						<m:attributes>
-							<m:ObjectAttribute
-								id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-items-sap_m_ObjectListItem-1-attributes-sap_m_ObjectAttribute-2" text="Unidade"
-								active="false"/>
-						</m:attributes>
-						<m:firstStatus>
-							<m:ObjectStatus
-								id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-items-sap_m_ObjectListItem-1-firstStatus-sap_m_ObjectStatus-1462815768530"
-								text="Status" state="None"/>
-						</m:firstStatus>
-						<m:secondStatus/>
-					</m:ObjectListItem>
-					<m:ObjectListItem id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-items-sap_m_ObjectListItem-2" showMarkers="false" intro=""
-						title="Bla bla bla bla..." number="09/05/2016" numberUnit="" numberState="None" type="Active" selected="true"
-						press="_onPressSapResponsivePage0contentsapmList1462815030354itemssapmObjectListItem1">
-						<m:attributes>
-							<m:ObjectAttribute
-								id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-items-sap_m_ObjectListItem-2-attributes-sap_m_ObjectAttribute-2" text="Unidade"
-								active="false"/>
-						</m:attributes>
-						<m:firstStatus>
-							<m:ObjectStatus
-								id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-items-sap_m_ObjectListItem-2-firstStatus-sap_m_ObjectStatus-1462815768530"
-								text="Status" state="None"/>
-						</m:firstStatus>
-						<m:secondStatus/>
-					</m:ObjectListItem>
 				</m:items>
 			</m:List>
 		</m:content>
@@ -53,14 +23,13 @@
 		<m:footer>
 			<m:Bar id="sap_Responsive_Page_0-footer-sap_m_Bar-1" design="Footer">
 				<m:contentLeft>
+					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-3" iconDensityAware="false" text="" type="Default"
+						icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true"/>
 					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentLeft-sap_m_Button-1462815130019" iconDensityAware="false" text="New"
 						type="Emphasized" icon="sap-icon://add" iconFirst="true" width="auto" enabled="true" visible="true"/>
 				</m:contentLeft>
 				<m:contentMiddle/>
-				<m:contentRight>
-					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-3" iconDensityAware="false" text="" type="Default"
-						icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true"/>
-				</m:contentRight>
+				<m:contentRight/>
 			</m:Bar>
 		</m:footer>
 	</m:Page>
