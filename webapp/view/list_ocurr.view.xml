@@ -1,0 +1,59 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.list_ocorr" xmlns:m="sap.m">
+	<m:Page id="sap_Responsive_Page_0" showHeader="true" title="Ocorrências" showFooter="true" showNavButton="true"
+		navButtonPress="_onNavButtonPressSapResponsivePage0">
+		<m:content>
+		 <!--   <m:List id="sap_Responsive_Page_0-content-sap_m_List-1462815030354" mode="SingleSelectMaster" width="100%" headerText="Header" footerText=""-->
+			<!--	backgroundDesign="Solid" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false"-->
+   <!--     		items="{/Ocorrencias}"-->
+   <!--     		includeItemInSelection="true">-->
+			<!--	<m:headerToolbar>-->
+			<!--		<m:Toolbar id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-headerToolbar-sap_m_Toolbar2-1" visible="true" enabled="true" width=""-->
+			<!--			design="Solid">-->
+			<!--			<m:content>-->
+			<!--				<m:SearchField id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-headerToolbar-sap_m_Toolbar2-1-content-sap_m_SearchField-1"-->
+			<!--					placeholder="Search" showSearchButton="true" visible="true" width="100%"/>-->
+			<!--			</m:content>-->
+			<!--		</m:Toolbar>-->
+			<!--	</m:headerToolbar>-->
+			<!--	<m:items-->
+			<!--	    title="{DsOcorre}"-->
+   <!--     			description="{TxNomelo}"-->
+   <!--     			icon="{ProductPicUrl}"-->
+   <!--     			iconDensityAware="false"-->
+   <!--     			iconInset="false">-->
+			<!--	</m:items>-->
+			<!--</m:List>-->
+			<m:List id="sap_Responsive_Page_0-content-sap_m_List-1462815030354" mode="SingleSelectMaster" width="100%" headerText="Header" footerText=""
+				backgroundDesign="Solid" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false" includeItemInSelection="true"
+				binding="{/Ocorrencias}">
+				<m:headerToolbar>
+					<m:Toolbar id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-headerToolbar-sap_m_Toolbar2-1" visible="true" enabled="true" width=""
+						design="Solid">
+						<m:content>
+							<m:SearchField id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-headerToolbar-sap_m_Toolbar2-1-content-sap_m_SearchField-1"
+								placeholder="Search" showSearchButton="true" visible="true" width="100%"/>
+						</m:content>
+					</m:Toolbar>
+				</m:headerToolbar>
+				<m:items 
+				    title="{DsOcorre}">
+				</m:items>
+			</m:List>
+		</m:content>
+		<m:headerContent/>
+		<m:subHeader/>
+		<m:customHeader/>
+		<m:footer>
+			<m:Bar id="sap_Responsive_Page_0-footer-sap_m_Bar-1" design="Footer">
+				<m:contentLeft>
+					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-3" iconDensityAware="false" text="" type="Default"
+						icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true"/>
+					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentLeft-sap_m_Button-1462815130019" iconDensityAware="false" text="New"
+						type="Emphasized" icon="sap-icon://add" iconFirst="true" width="auto" enabled="true" visible="true"/>
+				</m:contentLeft>
+				<m:contentMiddle/>
+				<m:contentRight/>
+			</m:Bar>
+		</m:footer>
+	</m:Page>
+</mvc:View>

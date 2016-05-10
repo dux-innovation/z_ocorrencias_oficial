@@ -52,7 +52,7 @@
 	"sap.ui5": {
 		"_version": "1.1.0",
 		"rootView": {
-			"viewName": "generated.app.view1462814969762_S0",
+			"viewName": "generated.app.viewlist_ocorr",
 			"type": "XML"
 		},
 		"dependencies": {
@@ -98,15 +98,15 @@
 				"controlAggregation": "pages",
 				"bypassedPage": {
 					"target": [
-						"1462814969762_S0"
+						"list_ocorr"
 					]
 				}
 			},
 			"routes": [{
-				"pattern": "1462814969762_S0/:context:",
-				"name": "1462814969762_S0",
+				"pattern": "list_ocorr/:context:",
+				"name": "list_ocorr",
 				"target": [
-					"1462814969762_S0"
+					"list_ocorr"
 				]
 			}, {
 				"pattern": "1462818173610_S1/:context:",
@@ -118,14 +118,14 @@
 				"pattern": "",
 				"name": "default",
 				"target": [
-					"1462814969762_S0"
+					"list_ocorr"
 				]
 			}],
 			"targets": {
-				"1462814969762_S0": {
+				"list_ocorr": {
 					"controlAggregation": "pages",
-					"viewName": "1462814969762_S0",
-					"viewId": "1462814969762_S0",
+					"viewName": "list_ocorr",
+					"viewId": "list_ocorr",
 					"viewLevel": 1
 				},
 				"1462818173610_S1": {

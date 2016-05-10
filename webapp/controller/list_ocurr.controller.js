@@ -1,11 +1,11 @@
 sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 	"use strict";
 
-	return BaseController.extend("generated.app.controller.1462814969762_S0", {
+	return BaseController.extend("generated.app.controller.list_ocorr", {
 
 		onInit: function() {
 			this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			this.oRouter.getTarget("1462814969762_S0").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
+			this.oRouter.getTarget("list_ocorr").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
 
 		},
 		handleRouteMatched: function(oEvent) {
@@ -26,7 +26,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 		_onNavButtonPressSapResponsivePage0: function() {
 			var oBindingContext = this.getView().getBindingContext();
 
-			this.doNavigate("1462814969762_S0", oBindingContext);
+			this.doNavigate("list_ocorr", oBindingContext);
 
 		},
 		doNavigate: function(sRouteName, oBindingContext) {
