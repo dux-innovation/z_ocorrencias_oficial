@@ -40,7 +40,7 @@
 										text="Hora" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>
 									<m:Text
 										id="id-text-hora"
-										text="10:52" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+										text="10:51" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
 									<m:Label
 										id="id-label-local"
 										text="Local" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>
