@@ -76,6 +76,16 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 
 			this.doNavigate("1462818173610_S1", oBindingContext);
 
+		},
+		navigateToDetails: function(){
+			var oBindingContext = this.getView().getBindingContext();
+
+			this.doNavigate("details_ocorr", oBindingContext);
+		},
+		navigateToForm: function(){
+			var oBindingContext = this.getView().getBindingContext();
+
+			this.doNavigate("ocorr_form", oBindingContext);
 		}
 	});
 }, /* bExport= */ true);
