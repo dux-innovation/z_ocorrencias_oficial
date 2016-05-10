@@ -1,0 +1,68 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.details_ocorr" xmlns:uxap="sap.uxap" xmlns:m="sap.m"
+	xmlns:form="sap.ui.layout.form">
+	<uxap:ObjectPageLayout id="id-obj-page-layout" showTitleInHeaderContent="true" showHeaderContent="true" showAnchorBar="true"
+		subSectionLayout="TitleOnTop">
+		<uxap:headerContent/>
+		<uxap:headerTitle>
+			<uxap:ObjectPageHeader id="id-header" objectImageURI="sap-icon://create"
+				objectTitle="Titulo e descrição cortada em uns 50 caractere..." objectSubtitle="" headerDesign="Light" objectImageShape="Square"
+				isObjectIconAlwaysVisible="false" isObjectTitleAlwaysVisible="false" isObjectSubtitleAlwaysVisible="false" isActionAreaAlwaysVisible="true">
+				<uxap:actions>
+					<m:Button id="id-btn-rejeitar"
+						iconDensityAware="false" text="Rejeitar" type="Reject" iconFirst="true" width="auto" enabled="true" visible="true"/>
+					<m:Button id="id-btn_aceitar"
+						iconDensityAware="false" text="Aceitar" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true"/>
+				</uxap:actions>
+				<uxap:breadCrumbsLinks/>
+				<uxap:navigationBar/>
+			</uxap:ObjectPageHeader>
+		</uxap:headerTitle>
+		<uxap:sections>
+			<uxap:ObjectPageSection id="id-object-page-section" showTitle="true" title="Page Section Title"
+				titleUppercase="true" visible="true">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection
+						id="id-object-page-subsection" title="Sub Section Title"
+						mode="Expanded">
+						<uxap:blocks>
+							<form:SimpleForm
+								id="id-object-page-section-form"
+								minWidth="-1" maxContainerCols="2" layout="ResponsiveGridLayout" editable="true" visible="true">
+								<form:content>
+									<m:Label
+										id="id-label-data"
+										text="Data" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>
+									<m:Text
+										id="id-text-data"
+										text="11/05/2016" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+									<m:Label
+										id="id-label-hora"
+										text="Hora" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>
+									<m:Text
+										id="id-text-hora"
+										text="10:51" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+									<m:Label
+										id="id-label-local"
+										text="Local" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>
+									<m:Text
+										id="id-text-local"
+										text="Corredores" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+									<m:Label
+										id="id-label-descricao"
+										text="Descrição" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>
+									<m:Text
+										id="id-text-descricao"
+										text="Vidro quebrado da janela" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:content>
+								<form:title/>
+							</form:SimpleForm>
+						</uxap:blocks>
+						<uxap:moreBlocks/>
+						<uxap:actions/>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+				<uxap:customAnchorBarButton/>
+			</uxap:ObjectPageSection>
+		</uxap:sections>
+	</uxap:ObjectPageLayout>
+</mvc:View>

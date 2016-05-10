@@ -109,10 +109,10 @@
 					"list_ocorr"
 				]
 			}, {
-				"pattern": "1462818173610_S1/:context:",
-				"name": "1462818173610_S1",
+				"pattern": "details_ocorr/:context:",
+				"name": "details_ocorr",
 				"target": [
-					"1462818173610_S1"
+					"details_ocorr"
 				]
 			}, {
 				"pattern": "",
@@ -128,10 +128,10 @@
 					"viewId": "list_ocorr",
 					"viewLevel": 1
 				},
-				"1462818173610_S1": {
+				"details_ocorr": {
 					"controlAggregation": "pages",
-					"viewName": "1462818173610_S1",
-					"viewId": "1462818173610_S1",
+					"viewName": "details_ocorr",
+					"viewId": "details_ocorr",
 					"viewLevel": 1
 				}
 			}

@@ -1,11 +1,11 @@
 sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 	"use strict";
 
-	return BaseController.extend("generated.app.controller.1462818173610_S1", {
+	return BaseController.extend("generated.app.controller.details_ocorr", {
 
 		onInit: function() {
 			this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			this.oRouter.getTarget("1462818173610_S1").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
+			this.oRouter.getTarget("details_ocorr").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
 
 		},
 		handleRouteMatched: function(oEvent) {
