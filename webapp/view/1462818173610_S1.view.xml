@@ -34,7 +34,7 @@
 										text="Data" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>
 									<m:Text
 										id="id-text-data"
-										text="10/05/2016" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+										text="11/05/2016" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
 									<m:Label
 										id="id-label-hora"
 										text="Hora" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>
