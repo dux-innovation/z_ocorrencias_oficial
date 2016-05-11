@@ -11,7 +11,7 @@
 		},
 		"dataSources": {
 			"main": {
-				"uri": "/here/goes/your/serviceUrl/",
+				"uri": "/sap/opu/odata/sap/ZOCORRENCIAS_SRV/",
 				"type": "OData",
 				"settings": {
 					"odataVersion": "2.0",
@@ -110,7 +110,7 @@
 				"name": "default",
 				"target": ["list_ocorr"]
 			}, {
-			    "pattern": "ocorr_form/:context:",
+				"pattern": "ocorr_form/:context:",
 				"name": "ocorr_form",
 				"target": ["ocorr_form"]
 			}],
