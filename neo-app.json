@@ -1,6 +1,15 @@
 {
   "welcomeFile": "webapp/index.html",
   "routes": [
+     {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "DUX_Dev_800",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "Dux Development"
+    },
     {
       "path": "/resources",
       "target": {

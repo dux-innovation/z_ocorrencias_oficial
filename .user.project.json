@@ -5,16 +5,26 @@
       "previewMode": 1,
       "dataMode": 1,
       "workspace": "withoutWorkspace",
-      "ui5ActiveVersion": null,
+      "ui5ActiveVersion": "",
       "ui5VerSource": null,
       "isDefaultVersion": 0,
-      "urlParameters": [],
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": ""
+        }
+      ],
       "urlParametersNotNeeded": false,
       "hashParameter": "",
-      "backendSystem": [],
+      "backendSystem": [
+        {
+          "source": "DUX_Dev_800",
+          "destinations": "DUX_Dev_800"
+        }
+      ],
       "_metadata": {
-        "runnerId": "webapprunner",
         "id": 7495786,
+        "runnerId": "webapprunner",
         "displayName": "Run index.html"
       }
     }

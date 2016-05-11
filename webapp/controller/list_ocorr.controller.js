@@ -4,10 +4,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], func
 	return BaseController.extend("generated.app.controller.list_ocorr", {
 
 		onInit: function(oView) {
-            var sServiceUrl = "/sap/opu/odata/SAP/ZOCORRENCIAS_SRV/Ocorrencias";
-             var oModel = new sap.ui.model.odata.ODataModel(sServiceUrl, true);
-             this.getView().setModel(oModel);
-            
 			this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 			this.oRouter.getTarget("list_ocorr").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
             
@@ -90,6 +86,11 @@ sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], func
 			var oBindingContext = this.getView().getBindingContext();
 
 			this.doNavigate("ocorr_form", oBindingContext);
+		},
+		onListItemPress: function(){
+			var oBindingContext = this.getView().getBindingContext();
+
+			this.doNavigate("details_ocorr", oBindingContext);
 		}
 	});
 }, /* bExport= */ true);
