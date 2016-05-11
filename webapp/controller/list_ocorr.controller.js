@@ -1,12 +1,16 @@
-sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
+sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], function(BaseController, JSONModel) {
 	"use strict";
 
 	return BaseController.extend("generated.app.controller.list_ocorr", {
 
-		onInit: function() {
+		onInit: function(oView) {
+            var sServiceUrl = "/sap/opu/odata/SAP/ZOCORRENCIAS_SRV/Ocorrencias";
+             var oModel = new sap.ui.model.odata.ODataModel(sServiceUrl, true);
+             this.getView().setModel(oModel);
+            
 			this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 			this.oRouter.getTarget("list_ocorr").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
-
+            
 		},
 		handleRouteMatched: function(oEvent) {
 			var params = {};
