@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m" controllerName="generated.app.controller.ocorr_form">
 	
 	<m:Page id="ocorr_form_page" showHeader="true" title="Nova ocorrência" showFooter="true" showNavButton="true" navButtonPress="_onNavButtonPressSapResponsivePage0" busy="false">
+=======
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m" controllerName="com.duxinnovation.z_ocorrencias_oficial.controller.ocorr_form"><m:Page id="ocorr_form_page" showHeader="true" title="Nova ocorrência" showFooter="true" showNavButton="true" navButtonPress="_onNavButtonPressSapResponsivePage0" busy="false">
+>>>>>>> dc34d4e88c98503370bd86a2e12bd527fde86a42
 	
 	<m:content>
 	

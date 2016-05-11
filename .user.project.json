@@ -5,16 +5,21 @@
       "previewMode": 1,
       "dataMode": 1,
       "workspace": "withoutWorkspace",
-      "ui5ActiveVersion": null,
+      "ui5ActiveVersion": "1.34.8",
       "ui5VerSource": null,
-      "isDefaultVersion": 0,
-      "urlParameters": [],
+      "isDefaultVersion": 1,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": ""
+        }
+      ],
       "urlParametersNotNeeded": false,
       "hashParameter": "",
       "backendSystem": [],
       "_metadata": {
-        "runnerId": "webapprunner",
         "id": 7495786,
+        "runnerId": "webapprunner",
         "displayName": "Run index.html"
       }
     }
