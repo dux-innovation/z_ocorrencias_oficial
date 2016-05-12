@@ -2,41 +2,23 @@
 	<Page id="sap_Responsive_Page_0" showHeader="true" title="Ocorrências" showFooter="true" showNavButton="true"
 		navButtonPress="_onNavButtonPressSapResponsivePage0">
 		<content>
-			<!--   <List id="sap_Responsive_Page_0-content-sap_m_List-1462815030354" mode="SingleSelectMaster" width="100%" headerText="Header" footerText=""-->
-			<!--	backgroundDesign="Solid" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false"-->
-			<!--     		items="{/Ocorrencias}"-->
-			<!--     		includeItemInSelection="true">-->
-			<!--	<headerToolbar>-->
-			<!--		<Toolbar id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-headerToolbar-sap_m_Toolbar2-1" visible="true" enabled="true" width=""-->
-			<!--			design="Solid">-->
-			<!--			<content>-->
-			<!--				<SearchField id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-headerToolbar-sap_m_Toolbar2-1-content-sap_m_SearchField-1"-->
-			<!--					placeholder="Search" showSearchButton="true" visible="true" width="100%"/>-->
-			<!--			</content>-->
-			<!--		</Toolbar>-->
-			<!--	</headerToolbar>-->
-			<!--	<items-->
-			<!--	    title="{DsOcorre}"-->
-			<!--     			description="{TxNomelo}"-->
-			<!--     			icon="{ProductPicUrl}"-->
-			<!--     			iconDensityAware="false"-->
-			<!--     			iconInset="false">-->
-			<!--	</items>-->
-			<!--</List>-->
-			<List id="sap_Responsive_Page_0-content-sap_m_List-1462815030354" mode="SingleSelectMaster" width="100%" headerText="Header" footerText=""
-				backgroundDesign="Solid" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false"
-				includeItemInSelection="true" items="{/Ocorrencias}">
+			<List id="sap_Responsive_Page_0-content-sap_m_List-1462815030354" width="100%" headerText="Header" backgroundDesign="Solid"
+				showSeparators="All" mode="SingleSelectMaster"
+				itemPress="onClickItem"   
+				items="{/Ocorrencias}">
 				<headerToolbar>
-					<Toolbar id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-headerToolbar-sap_m_Toolbar2-1" visible="true" enabled="true" width=""
-						design="Solid">
+					<Toolbar visible="true" enabled="true" width="" design="Solid">
 						<content>
-							<SearchField id="sap_Responsive_Page_0-content-sap_m_List-1462815030354-headerToolbar-sap_m_Toolbar2-1-content-sap_m_SearchField-1"
-								placeholder="Search" showSearchButton="true" visible="true" width="100%"/>
+							<SearchField id="search-field-list" placeholder="Search" showSearchButton="true" visible="true" width="100%"/>
 						</content>
 					</Toolbar>
 				</headerToolbar>
 				<items>
-					<ObjectListItem title="{DsOcorre}" type="Active" press="onListItemPress">
+					<ObjectListItem 
+					    id="asd"
+					    title="{DsOcorre}"
+					    type="Navigation"
+					    >
 						<firstStatus>
 							<ObjectStatus text="{IdStatus}"/>
 						</firstStatus>
@@ -55,12 +37,10 @@
 				<contentLeft/>
 				<contentMiddle/>
 				<contentRight>
-					<Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-3" iconDensityAware="false" text="" type="Default"
-						icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true"/>
-					<Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentLeft-sap_m_Button-1462815130019" iconDensityAware="false" text="New"
-						type="Emphasized" icon="sap-icon://add" iconFirst="true" width="auto" enabled="true" visible="true"/>
+					<Button iconDensityAware="false" text="" type="Default" icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true"/>
+					<Button press="navigateToForm" iconDensityAware="false" text="New" type="Emphasized" icon="sap-icon://add" iconFirst="true" width="auto"
+						enabled="true" visible="true"/>
 					<Button press="navigateToDetails" iconDensityAware="false" text="Ir pra detalhes" type="Reject" width="auto" enabled="true" visible="true"/>
-					<Button press="navigateToForm" iconDensityAware="false" text="Ir pro form" type="Accept" width="auto" enabled="true" visible="true"/>
 				</contentRight>
 			</Bar>
 		</footer>
