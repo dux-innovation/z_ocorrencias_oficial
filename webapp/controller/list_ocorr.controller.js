@@ -95,8 +95,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], func
 			this.doNavigate("ocorr_form", oBindingContext);
 		},
 		formatDate : function(v) {  
-            jQuery.sap.require("sap.ui.core.format.DateFormat");  
-            var oDateFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({pattern: "dd-MM-YYYY"});  
             var data = new Date(parseInt(v.replace(/[^0-9\.]+/g, ''))); 
             var dia = data.getDate();
             var mes = data.getMonth();
