@@ -1,4 +1,9 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.list_ocorr" xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.list_ocorr" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml">
+    <html:style>
+      .sapMObjLNumberStateNone{
+          font-size : 15px !important;
+      }
+    </html:style>
 	<Page id="sap_Responsive_Page_0" showHeader="true" title="Ocorrências" showFooter="true" showNavButton="true"
 		navButtonPress="_onNavButtonPressSapResponsivePage0">
 		<content>
@@ -17,13 +22,16 @@
 					<ObjectListItem 
 					    id="asd"
 					    title="{DsOcorre}"
-					    type="Navigation"
-					    >
+					    number="{
+					        path: 'DtOcorre',  
+                            formatter: '.formatDate'
+                        }"
+					    type="Navigation">
 						<firstStatus>
-							<ObjectStatus text="{IdStatus}"/>
+							<ObjectStatus text="{DsStatus}"/>
 						</firstStatus>
 						<attributes>
-							<ObjectAttribute text="{IdOcorre} {DsOcorre}"/>
+							<ObjectAttribute text="{TxNomelo}"/>
 						</attributes>
 					</ObjectListItem>
 				</items>
