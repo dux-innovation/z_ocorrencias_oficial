@@ -72,13 +72,11 @@ sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], func
 			}
 		},
 		onClickItem: function(oEvent){
-		  //  getParameters().srcControl.mBindingInfos.title.binding.oContext.sPath
-				this.oRouter.navTo("generated.app.view.details_ocorr", {
-					from: "generated.app.view.list_ocorr",
-					id: oEvent.getParameters().listItem.getBindingContext().getPath().substr(1),
-					tab: null
-				});
-				
+    		this.oRouter.navTo("details_ocorr", {
+    			from: "generated.app.view.list_ocorr",
+    			id: oEvent.getParameters().listItem.getBindingContext().getPath().substr(1),
+    			tab: null
+    		});
 		},
 		_onPressSapResponsivePage0contentsapmList1462815030354itemssapmObjectListItem1: function() {
 			var oBindingContext = this.getView().getBindingContext();

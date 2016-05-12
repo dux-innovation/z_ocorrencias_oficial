@@ -126,7 +126,7 @@
 					"viewName": "details_ocorr",
 					"viewId": "details_ocorr",
 					"viewLevel": 1,
-					"viewPath": "generated.app.view.details_ocorr"
+					"viewPath": "generated.app.view"
 				},
 				"ocorr_form": {
 					"viewName": "ocorr_form",
