@@ -1,7 +1,7 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.list_ocorr" xmlns:m="sap.m" xmlns:core="sap.ui.core">
 	<m:Page id="sap_Responsive_Page_0" showHeader="true" title="Ocorrências" showFooter="true" showNavButton="true"
 		navButtonPress="_onNavButtonPressSapResponsivePage0">
-		<m:content>
+		<m:content>  
 		 <!--   <m:List id="sap_Responsive_Page_0-content-sap_m_List-1462815030354" mode="SingleSelectMaster" width="100%" headerText="Header" footerText=""-->
 			<!--	backgroundDesign="Solid" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false"-->
    <!--     		items="{/Ocorrencias}"-->
