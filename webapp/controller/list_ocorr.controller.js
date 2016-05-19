@@ -6,7 +6,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], func
 		onInit: function(oView) {
 			this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 			this.oRouter.getTarget("list_ocorr").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
-
+            
 		},
 		handleRouteMatched: function(oEvent) {
 			var params = {};
@@ -72,11 +72,11 @@ sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], func
 			}
 		},
 		onClickItem: function(oEvent){
-			this.oRouter.navTo("details_ocorr", {
-				from: "generated.app.view.list_ocorr",
-				id: oEvent.getParameters().listItem.getBindingContext().getPath().substr(1),
-				tab: null
-			});
+    		this.oRouter.navTo("details_ocorr", {
+    			from: "generated.app.view.list_ocorr",
+    			id: oEvent.getParameters().listItem.getBindingContext().getPath().substr(1),
+    			tab: null
+    		});
 		},
 		_onPressSapResponsivePage0contentsapmList1462815030354itemssapmObjectListItem1: function() {
 			var oBindingContext = this.getView().getBindingContext();
@@ -95,7 +95,8 @@ sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], func
 			this.doNavigate("ocorr_form", oBindingContext);
 		},
 		formatDate : function(v) {
-			if(v) {
+			//cometario
+			if(v) { 
 				var data = new Date(parseInt(v.replace(/[^0-9\.]+/g, '')));
 				var dia = data.getDate();
 				var mes = data.getMonth();
