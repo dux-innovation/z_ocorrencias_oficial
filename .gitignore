@@ -6,3 +6,5 @@ mock_preview_sapui5.html
 .*/mock_preview_sapui5.html
 sap-ui-cachebuster-info.json
 /webapp/preview_hidden.html
+/.idea/workspace.xml
+.idea/workspace.xml
