@@ -94,14 +94,17 @@ sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], func
 
 			this.doNavigate("ocorr_form", oBindingContext);
 		},
-		formatDate : function(v) {  
-            var data = new Date(parseInt(v.replace(/[^0-9\.]+/g, ''))); 
-            var dia = data.getDate();
-            var mes = data.getMonth();
-            var ano = data.getFullYear();
-            data = dia + '/' + (mes++) + '/' + ano;
-            
-            return data;  
+		formatDate : function(v) {
+			if(v) {
+				var data = new Date(parseInt(v.replace(/[^0-9\.]+/g, '')));
+				var dia = data.getDate();
+				var mes = data.getMonth();
+				var ano = data.getFullYear();
+				data = dia + '/' + (mes++) + '/' + ano;
+				return data;
+			}else{
+				return "";
+			}
         }  
 	});
 }, /* bExport= */ true);
