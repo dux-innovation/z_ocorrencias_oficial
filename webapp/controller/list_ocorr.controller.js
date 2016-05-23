@@ -95,7 +95,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",'sap/ui/model/json/JSONModel'], func
 			this.doNavigate("ocorr_form", oBindingContext);
 		},
 		formatDate : function(v) {
-			//comentário teste para merge
+			//comentário teste para merge  
 			if(v) { 
 				var data = new Date(parseInt(v.replace(/[^0-9\.]+/g, '')));
 				var dia = data.getDate();
